@@ -7,15 +7,15 @@ import coffeeshop from "../assets/coffeeshop.webp";
 const ProjectCardData = [
   {
     imgsrc: coffeeshop,
-    title: "Coffee Shop customer data base",
-    text: "Coffee Shop customer data base",
+    title: "Coffee Shop Customer Data Base",
+    text: "Coffee Shop Customer Data Base",
     view: "https://reactrouter-assignment.vercel.app/",
     code: "https://github.com/UgoChiori/ReactRouter-Assignment"
   },
   {
     imgsrc: girlcupcake,
-    title: "Hire a Baker",
-    text: 'A website that allows users to locate their favourite bakers online built with React.',
+    title: "Hire -a- Baker",
+    text: 'A website that allows users to locate their favourite bakers online, built with React.',
     view: "https://hire-abaker-wkkc-g6wd2lksq-ugochiori.vercel.app/",
     code: "https://github.com/UgoChiori/HireAbaker"
   },
