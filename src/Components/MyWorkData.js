@@ -1,4 +1,4 @@
-import workspace1 from "../assets/workspace1.png";
+// import workspace1 from "../assets/workspace1.png";
 import girlcupcake from "../assets/girlcupcake.jpeg";
 import Todo from "../assets/Todo.jpeg";
 import coffeeshop from "../assets/coffeeshop.webp";

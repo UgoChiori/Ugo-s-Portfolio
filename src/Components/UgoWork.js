@@ -1,5 +1,5 @@
 import "./mywork.css";
-import MyWork from "./MyWorkCard";
+import MyWork from "./MyWork";
 import MyWorkData from "./MyWorkData";
 import React from "react";
 
@@ -12,7 +12,7 @@ const UgoWork = () => {
           return (
             <MyWork
               key={ind}
-              img={val.imgsrc}
+              imgsrc={val.imgsrc}
               title={val.title}
               text={val.text}
               view={val.view}
