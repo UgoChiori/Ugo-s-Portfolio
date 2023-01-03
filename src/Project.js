@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div>
     
-      <UgoImg1 heading="PROJECTS." text="Some of my most recent works" />
+      <UgoImg1 heading="PROJECTS." text="Some of my work" />
       <UgoWork />
       <Pricing />
       <Footer />

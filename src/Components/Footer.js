@@ -1,6 +1,6 @@
 import "./footer.css";
 import React from "react";
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -78,7 +78,17 @@ const Footer = () => {
                   marginRight: "1rem"
                 }}
                 />
+                <FaGithub 
+                size={20}
+                style={{
+                  color: "white",
 
+                  cursor: "pointer",
+                  marginRight: "1rem"
+                }}
+                
+
+                />
             </div>
 
         </div>

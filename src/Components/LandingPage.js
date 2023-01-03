@@ -1,5 +1,5 @@
 import "./landingpage.css";
-import workspace from "../assets/workspace1.png";
+import ugodawn from "../assets/ugodawn.jpeg";
 import { Link } from "react-router-dom";
 import React from "react";
 
@@ -7,11 +7,11 @@ const LandingPage = () => {
   return (
     <div className="heroine">
       <div className="mask">
-        <img className="intro" src={workspace} alt="workspace" />
+        <img className="intro" src={ugodawn} alt="workspace" />
       </div>
       <div className="content">
-        <p>LOREM IPSUM YADA YADA YADA.</p>
-        <h1>React Developer</h1>
+        <h1>Front End Developer.</h1>
+        <p> I enjoy writing code, solving problems and building things. </p>
         <div>
           <Link to="/project" className="btn">
             Projects

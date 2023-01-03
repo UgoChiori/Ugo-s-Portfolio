@@ -20,7 +20,7 @@ function Navigation() {
   return (
     <div className={color ? "header header-bg" : "header" }>
       <NavLink to="/">
-        <h1>Portfolio.</h1>
+        <h1>Ugo Chiori.</h1>
       </NavLink>
       <ul className={click ? "menu active" : "menu"}>
         <li>
