@@ -1,17 +1,17 @@
 import "./landingpage.css";
 import ugodawn from "../assets/ugodawn.jpeg";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import React from "react";
 // import { useTranslation } from "react-i18next";
 // import { changeLanguage } from "i18next";
 // import i18next from "i18next";
 
-function LandingPage  ()  {
+function LandingPage() {
   // const { t, i18next } = useTranslation();
   // const handleClick = (lang) => {
   //   i18next.changeLanguage(lang);
   // }
-  
+
   // function handleClick  (lang)  {
   //   i18next.changeLanguage(lang);
   // };
@@ -34,13 +34,8 @@ function LandingPage  ()  {
           </Link>
         </div>
       </div>
-      {/* <Link to="/"> */}
-          {/* <button onClick={() => handleClick("en")}>English</button>
-          <button onClick={() => handleClick("fr")}>French</button>
-          <p>{t("my translated text")}</p> */}
-        {/* </Link> */}
     </div>
   );
-};
+}
 
 export default LandingPage;

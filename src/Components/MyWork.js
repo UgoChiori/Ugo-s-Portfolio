@@ -1,9 +1,10 @@
 import "./mywork.css";
-import { Link } from "react-router-dom";
+// import { Link, useNavigate, redirect } from "react-router-dom";
 import React from "react";
 
 const MyWork = (props) => {
-  
+  // const navigate = useNavigate();
+
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="pictures" />
@@ -11,13 +12,14 @@ const MyWork = (props) => {
       <div className="details">
         <p>{props.text}</p>
         <div className="pro-btns">
-
-          <Link to={props.view} className="btn">
+          <a href={`${props.view}`} target="_blank" className="btn">
             View
-          </Link>
-          <Link to={props.code} className="btn">
+          </a>
+          
+          {/* <button onClick={()=>{window.location.href=props.code}}>CODE</button> */}
+          <a href={`${props.code}`} target="_blank"className="btn">
             Code
-          </Link>
+          </a>
         </div>
       </div>
     </div>

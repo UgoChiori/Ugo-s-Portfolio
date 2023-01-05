@@ -50,11 +50,16 @@
     position: absolute;
     top: 0;
     left: -100%;
+    /* transition: all 0.3s ease-in-out; */
     z-index: -3;
+    opacity: 0;
+
     transition: 0.3s;
   }
   .menu.active {
     left: 0;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
   }
   .menu li {
     padding: 1rem 0;
