@@ -9,8 +9,11 @@ import esspresso from "../assets/esspresso.jpeg";
 const Pricing = () => {
   return (
     <div className="pricing">
+     
       <div className="pricing_container">
+    
         <div className="card">
+          
           <video player className="intro" src={ugowalk} alt="workspace" />
             {/* <h3>- Basic -</h3>
             <span className="bar"></span>

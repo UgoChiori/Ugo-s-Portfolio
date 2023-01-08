@@ -1,49 +1,40 @@
 import React from "react";
 import "./posts.css";
+import code from "../posts/code.jpeg";
 
 export default function Posts() {
   return (
     <div className="post">
-      <img
-        className="postImg"
-        src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-        alt="url"
-      />
+      <img className="postImg" src={code} alt="url" />
 
       <div className="postText">
         <div className="postCategories">
-          <span className="postCategory">Cakes</span>
           <span className="postCategory">Programming</span>
         </div>
-        <span className="postTitle">Lorem ipsum dolor sit amet.</span>
+        <span className="postTitle">
+          Altschool Exam Project: My Github repositories
+        </span>
         <hr />
         <span className="postDate">1 hour ago</span>
       </div>
       <p className="postDescription">
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-        accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-        molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-        officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-        nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-        error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis
-        modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
-        error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt
-        dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed
-        amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat,
-        temporibus enim commodi iusto libero magni deleniti quod quam
-        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-        doloremque. Quaerat provident commodi consectetur veniam similique ad
-        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores
-        labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto
-        ab laudantium modi minima sunt esse temporibus sint culpa, recusandae
-        aliquam numquam totam ratione voluptas quod exercitationem fuga.
-        Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!{" "}
+        This project is a simple React application that allows the user to
+        search for GitHub repositories using the GitHub Repo API. Getting
+        Started: To get started, create new React App: npx create-react-app
+        altschoolassignment Start the development server: npm start The
+        application is hosted at
+        https://alt-school-exam-project-zeta.vercel.app/ The following
+        dependencies were installed for this project: - npm i- react-router-dom
+        - npm i- axios - npm i- react-error-boundary{" "}
       </p>
+      <a
+        href="https://adaohafia1.blogspot.com/2023/01/altschool-exam-project-my-github_8.html"
+        className="postLink"
+      >
+        {" "}
+        Read More
+      </a>
     </div>
   );
 }
