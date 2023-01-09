@@ -14,11 +14,11 @@ function Navigation() {
     } else {
       setColor(false);
     }
-  }
-  window.addEventListener('scroll', changeColor);
+  };
+  window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header" }>
+    <div className={color ? "header header-bg" : "header"}>
       <NavLink to="/">
         <h1>Ugo Chiori.</h1>
       </NavLink>
