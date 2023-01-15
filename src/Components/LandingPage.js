@@ -24,7 +24,8 @@ function LandingPage() {
       </div>
       <div className="content">
         <h1>Front End Developer</h1>
-        <p> I enjoy writing code, solving problems and building things </p>
+        <h4>Baker turned developer, </h4>
+        <p> I enjoy writing code, solving problems and building things. </p>
         <div>
           <Link to="/project" className="btn">
             Projects
