@@ -9,11 +9,11 @@ const MyWork = (props) => {
       <div className="details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <a href={`${props.view}`} target="_blank" className="btn">
+          <a href={`${props.view}`} target="_blank" className="btn" rel="noreferrer">
             View
           </a>
 
-          <a href={`${props.code}`} target="_blank" className="btn">
+          <a href={`${props.code}`} target="_blank" className="btn" rel="noreferrer">
             Code
           </a>
         </div>
