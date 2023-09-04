@@ -29,19 +29,7 @@ const Footer = () => {
               <p>Nigeria</p>
             </div>
           </div>
-          <div className="phone">
-            <h4>
-              <FaPhone
-                size={20}
-                style={{
-                  color: "white",
-                  cursor: "pointer",
-                  marginRight: "2rem",
-                }}
-              />
-              +234 703 1967 075
-            </h4>
-          </div>
+         
           <div className="email">
             <h4>
               <FaMailBulk
