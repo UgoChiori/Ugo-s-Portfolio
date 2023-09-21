@@ -19,7 +19,7 @@ const About = () => {
         Although I have not yet worked on a lot of projects, I have worked on a few.
        I am looking to collaborate with other developers on Front End projects, and also learn new things as well.
        I am also looking to do freelance work.
-      My current stack includes Javascript, ReactJS and Vue. 
+      My current stack includes Javascript, ReactJS and VueJs, TypeScript, C#, Node Js amongst others.
       As a developer, learning new things is very important, hence
       I am also looking to add React Native to my stack, and also learn more about Web3."
       />
