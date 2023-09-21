@@ -14,19 +14,10 @@ import {
  
 } from "react-icons/fa";
 
-// import { useTranslation } from "react-i18next";
-// import { changeLanguage } from "i18next";
-// import i18next from "i18next";
+
 
 function LandingPage() {
-  // const { t, i18next } = useTranslation();
-  // const handleClick = (lang) => {
-  //   i18next.changeLanguage(lang);
-  // }
-
-  // function handleClick  (lang)  {
-  //   i18next.changeLanguage(lang);
-  // };
+ 
 
   return (
     <div className="heroine">
