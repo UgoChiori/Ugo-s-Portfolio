@@ -10,7 +10,8 @@ import {
   FaReact,
   FaCss3,
   FaDev,
-  FaVuejs
+  FaVuejs,
+ 
 } from "react-icons/fa";
 
 // import { useTranslation } from "react-i18next";
@@ -103,6 +104,7 @@ function LandingPage() {
               marginRight: "2rem",
             }}
           />
+         
         </div>
       </div>
     </div>
