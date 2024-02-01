@@ -1,7 +1,6 @@
-// import workspace1 from "../assets/workspace1.png";
 import clearlink from "../assets/clearlink.jpg";
 import Todo from "../assets/Todo.jpeg";
-import coffeeshop from "../assets/coffeeshop.webp";
+import checkr from "../assets/checkr.jpeg";
 import shopcandles1 from "../assets/shopcandles1.jpeg";
 import FoodApp from "../assets/FoodApp.jpeg";
 import WeatherApp from "../assets/WeatherApp.jpeg";
@@ -25,11 +24,11 @@ const ProjectCardData = [
     code: "https://github.com/UgoChiori/talentsynctest",
   },
   {
-    imgsrc: coffeeshop,
-    title: "Coffee Shop Customer Data Base",
-    text: "Coffee Shop Customer Data Base",
-    view: "https://reactrouter-assignment.vercel.app/",
-    code: "https://github.com/UgoChiori/ReactRouter-Assignment",
+    imgsrc: checkr,
+    title: "Discover a groundbreaking approach to background checks with SmartScreenr.",
+    text: "Your Key to the Smartest, Most Comprehensive Background Checks",
+    view: "https://checkr.vercel.app//",
+    code: "https://github.com/UgoChiori/checkr",
   },
 
   {
