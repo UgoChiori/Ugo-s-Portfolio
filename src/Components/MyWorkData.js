@@ -1,5 +1,5 @@
 // import workspace1 from "../assets/workspace1.png";
-import chef from "../assets/chef.png";
+import clearlink from "../assets/clearlink.jpg";
 import Todo from "../assets/Todo.jpeg";
 import coffeeshop from "../assets/coffeeshop.webp";
 import shopcandles1 from "../assets/shopcandles1.jpeg";
@@ -18,11 +18,11 @@ const ProjectCardData = [
     code: "https://github.com/UgoChiori/HospitalCarefinder/tree/main",
   },
   {
-    imgsrc: chef,
-    title: "Hire -a- Chef",
-    text: "A website that allows users to locate their favourite chefs online, built with Vue Js.",
-    view: "https://hireachef.vercel.app/",
-    code: "https://github.com/UgoChiori/hireachef",
+    imgsrc: clearlink,
+    title: "ClearLink.",
+    text: "Uniting the world, one video call at a time",
+    view: "https://talentsynctest.vercel.app/",
+    code: "https://github.com/UgoChiori/talentsynctest",
   },
   {
     imgsrc: coffeeshop,
