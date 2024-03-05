@@ -1,6 +1,6 @@
 import clearlink from "../assets/clearlink.jpg";
 import Todo from "../assets/Todo.jpeg";
-import checkr from "../assets/checkr.jpeg";
+// import checkr from "../assets/checkr.jpeg";
 import shopcandles1 from "../assets/shopcandles1.jpeg";
 import FoodApp from "../assets/FoodApp.jpeg";
 import WeatherApp from "../assets/WeatherApp.jpeg";
@@ -23,13 +23,7 @@ const ProjectCardData = [
     view: "https://talentsynctest.vercel.app/",
     code: "https://github.com/UgoChiori/talentsynctest",
   },
-  {
-    imgsrc: checkr,
-    title: "Discover a groundbreaking approach to background checks with SmartScreenr.",
-    text: "Your Key to the Smartest, Most Comprehensive Background Checks",
-    view: "https://checkr.vercel.app//",
-    code: "https://github.com/UgoChiori/checkr",
-  },
+  
 
   {
     imgsrc: Todo,
